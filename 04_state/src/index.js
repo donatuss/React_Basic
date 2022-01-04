@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PropsComponent from "./PropsComponent";
+import Clock from "./Clock";
+import Counter from "./Counter";
 
 ReactDOM.render(<React.StrictMode>
     <div>
-        <PropsComponent txt1="txtProperty-001" num1={1}/>
+        <Clock />
+        <Counter />
     </div>
 </React.StrictMode>, document.getElementById('root'));
